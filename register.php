@@ -14,7 +14,7 @@ if ((!empty($_POST["utilizador"])) && (!empty($_POST["password"])) && (!empty($_
     else
         $newsletter=0;
 
-    $conn -> query("INSERT INTO `bancofotografias`.`utilizador` (`username`, `password`, `email`, `newsletter`) VALUES ('$utilizador', '$password', '$email', '$newsletter')");
+    $conn -> query("INSERT INTO `utilizador` (`username`, `password`, `email`, `newsletter`) VALUES ('$utilizador', '$password', '$email', '$newsletter')");
     $conn -> close();
 
     //echo "<p>Conta criada com sucesso, bem-vindo/a $utilizador!</p>";

@@ -1,9 +1,9 @@
 <?php
 
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "bancofotografias";
+    $servername = "sql104.epizy.com";
+    $username = "epiz_33570655";
+    $password = "X7zZxbfxqmb0Y";
+    $dbname = "epiz_33570655_bancofotografias";
 
     // Create connection
 
